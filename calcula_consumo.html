@@ -1,0 +1,31 @@
+<h3>Álcool ou gasolina</h3>
+
+
+<script >
+	
+function pulaLinha() 
+{
+	document.write("<br>");
+
+}
+
+function mostra(texto) { 
+	document.write(texto);
+    pulaLinha();
+	 }
+
+
+var tanque = 40;
+var caminho_gasolina = 480;
+var consumoDeGasolina = caminho_gasolina/tanque;
+
+//document.write("o consumo de gasolina é " + consumoDeGasolina + " litros de gasolina" );
+mostra("o consumo de gasolina é " + consumoDeGasolina + " litros de gasolina");
+var caminhoAlcool = 300;
+var consumoDeAlcool = caminhoAlcool/tanque;
+//document.write("o consumo de alcool é " + consumoDeAlcool + " litros de alcool");
+mostra("o consumo de alcool é " + consumoDeAlcool + " litros de alcool");
+
+
+</script>
+	

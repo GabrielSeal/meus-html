@@ -1,0 +1,57 @@
+<meta charset="UTF=8">
+
+
+<script>
+	
+function pulaLinha()
+{
+	document.write("<br>");
+}
+
+function mostra(volume)
+{
+	document.write(volume);
+	pulaLinha();
+}
+
+
+//function areaP(lado1, lado2)
+//{
+//	var pequeno = lado1*lado2;
+//}
+
+//function areaG (ladoa, ladob)
+//{
+//	var grande = ladoa*ladob;
+//}
+
+
+function calculavolume(altura, lado1, lado2, ladoa, ladob)
+{
+	var pequeno = lado1*lado2;
+	var grande = ladoa*ladob;
+	var volumesapata = altura/3 * (grande + (Math.sqrt(grande*pequeno)) + pequeno);
+	//var raizes = Math.sqrt(areag*areap);
+	var concretoM = (ladoa+0.05)*(ladob+0.05)*0.05
+	var concretoG = ladoa*ladob*0.1
+	var concretos = concretoG + concretoM
+	var total = volumesapata + concretos
+
+	mostra("o volume da sapata é: " + volumesapata + "m³");
+	document.write("<br>");
+	mostra("volume da base é: " + concretoG + "m³")
+	document.write("<br>");
+	mostra("volume de concreto magro é: " + concretoM + "m³");
+	document.write("<br>");
+	mostra("volume total da sapata é: " + total + "m³");
+}
+
+//areaP(0.2,0.4);
+//areaG(1.8,1.8);
+calculavolume(0.75, 0.40 , 0.40, 2.6, 2.6);
+
+
+
+
+
+</script>

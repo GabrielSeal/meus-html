@@ -1,0 +1,16 @@
+Atividade em sala
+
+Crie uma aplicação que tenha uma tela inicial de boas vindas.
+Adicione um botão que troque de tela.
+A segunda tela deve ter uma imagem ilustrativa sobre qualquer tipo de 
+geração de energia que você queira mais um texto informativo sobre esse
+tipo de geração de energia.
+
+
+ATIVIDADE PARA NOTA
+
+Em times, crie uma aplicação que tenha pelo menos 3 telas
+a primeira tela é uma tela de boas vindas
+a segunda e terceira telas devem ter infomrações sobre um tipo de 
+geração de energia.
+Utilize imagens e textos!

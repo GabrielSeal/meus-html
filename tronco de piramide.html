@@ -1,0 +1,45 @@
+<meta charset="UTF=8">
+
+
+<script>
+	
+function pulaLinha()
+{
+	document.write("<br>");
+}
+
+function mostra(volume)
+{
+	document.write(volume);
+	pulaLinha();
+}
+
+
+function areaP(lado1, lado2)
+{
+	var pequeno = lado1*lado2;
+}
+
+function areaG (ladoa, ladob)
+{
+	var grande = ladoa*ladob;
+}
+
+
+function calculavolume(altura, areag, areap)
+{
+	var volumesapata = altura/3 * (grande + (Math.sqrt(grande*pequeno)) + grande);
+	//var raizes = Math.sqrt(areag*areap);
+
+	mostra("o volume da sapata é: " + volumesapata);
+}
+
+areaP(0.2,0.4);
+areaG(1.8,1.8);
+calculavolume(0.6, 10 , 10);
+
+
+
+
+
+</script>

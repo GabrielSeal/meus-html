@@ -1,0 +1,86 @@
+
+<html lang="pt-bt">
+<head>
+	<meta charset="utf-8">
+<title>título da página</title> 
+</head>
+
+<body>
+
+	<p>cria o espaço entre parágrafos</p>
+	<br> quebra linha (espaço)
+	<hr> linha horizontal que atravessa a borda
+	<h1>quanto menor o número de h maior o título vai de 1 a 5</h1>
+	<i>texto em italico</i>
+	<u>texto sublinhado</u>
+	<sup>texto sobrescrito</sup>
+	<sub>texto subescrito</sub>
+	<big>texto com maior fonte do que o padrão</big>
+	<small> texto com menor fonte que o padrão</small>
+	<em> texto em itálico</em>
+	<strong>texto em negrito</strong>
+
+	mudar cor do texto
+	<style>
+		p {color: red; }
+	</style>
+
+	mudar as cores no background
+
+	<style>
+		body {
+			background-color: black; 
+		 	color: green; 
+		 	}
+	</style>
+
+	inserir imagem
+	<img src="imagem.localondeelata"// define o local onde vai ser encontrada a imagem width="600px" //define o tamanho em px height="400px" // define somente a altura da imagem>
+
+	<ul>lista não ordenada</ul>
+	<ol>lista ordenada</ol>
+
+	criar links
+	<a href="link a ser usado">nome para o link clicável</a>
+
+
+	 tabelas
+	 <table>
+	 	<tr>cada linha deve ser declarada com tr  e cada célula com <td></td></tr>
+	 	<tr>cada celula que representa uma linha de cabeçalho vai usar <th></th></tr>
+	 </table> 
+
+	 criar divisórias
+	 <div>é uma tag estrutural para organização do código</div>
+
+
+	 formulários dentro do body
+	 
+	 <form action="processa.php" method="post">
+	 	input recebe texto
+	 	place holder é o nome que fica dentro do input
+	 	<input type="text" name="texto1" placeholder="vai ser exibido antes do usuário entrar nela">
+	 	<input type="password" name="senha"> usando o password o valor será ocultado
+	 	<input type="hidden" name="informacao_oculta" value="mensagem oculta"> hidden exige value
+
+	 	campo clicável dentro das opções possíveis no formulário
+	 	<select name="seleção">
+	 		<option value="1">opção 1</option>
+	 		<option value="2">opção 2</option>
+	 	</select>	
+
+	 	botão clicável que só permite selecionar uma opçãp (sim ou não)// nome tem q ser o mesmo
+	 	<input type="radio" name="radio1" value="1">Valor
+	 	<input type="radio" name="radio1">valor 2
+
+
+	 	permite que voce escolha vários valores (caixa de seleção) checked (vai fazer com que o valor ja apareça marcado ao carregar a pagina)
+	 	
+		<input type="checkbox" name="ck1" value="1"> valor 1
+
+		botão que envia todas as informações presentes na pagina no formulário
+		<input type="submit" value="enviar" name="submit">
+
+
+</body>
+</html>
